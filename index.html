@@ -13,12 +13,18 @@
     <!-- bootstrap-social-icons-->
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
     <title>News</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <!-- image carousel -->
         <div class="row row-content">
             <div class="col-md-8 mx-auto">
@@ -32,8 +38,10 @@
                     <!-- carousel -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="assets/img/borzoi-running-001.jpg"
-                                alt="Intensly running borzoi dog">
+                            <a href="post1.html">
+                                <img class="d-block w-100" src="assets/img/borzoi-running-001.jpg"
+                                    alt="Intensly running borzoi dog">
+                            </a>
                             <div class="carousel-caption">
                                 <h3>Running Borzoi</h3>
                                 <p class="d-none d-sm-block">Doggo ipsum fat boi I am bekom fat most angery pupper I
@@ -42,8 +50,10 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="assets/img/collie-intense-agility-jump-001.jpg"
-                                alt="Intense collie agility jumping toward camera">
+                            <a href="post2.html">
+                                <img class="d-block w-100" src="assets/img/collie-intense-agility-jump-001.jpg"
+                                    alt="Intense collie agility jumping toward camera">
+                            </a>
                             <div class="carousel-caption">
                                 <h3>Jumping Collie</h3>
                                 <p class="d-none d-sm-block">Doggo ipsum vvv ruff fluffer doing me a frighten he made
@@ -51,8 +61,10 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="assets/img/greyhound-sleeping-beach-001.jpg"
-                                alt="Greyhound sleeping on the beach">
+                            <a href="post3.html">
+                                <img class="d-block w-100" src="assets/img/greyhound-sleeping-beach-001.jpg"
+                                    alt="Greyhound sleeping on the beach">
+                            </a>
                             <div class="carousel-caption">
                                 <h3>Sleeping Sighthound</h3>
                                 <p class="d-none d-sm-block">Doggo ipsum lotsa pats wow very biscit he made many woofs
@@ -74,32 +86,14 @@
         </div>
     </div>
 
-    <nav>
-    </nav>
-
+    <!-- footer -->
     <footer>
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li><a href="#">News</li></a>
-                <li><a href="aboutus.html">About Us</li></a>
-                <li><a href="dogs.html">Our Dogs</li></a>
-                <li><a href="training.html">Training Levels</li></a>
-                <li><a href="contact.html">Contact</li></a>
-                <li><a href="support.html">Support</li></a>
-            </ul>
-        </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
-        </div>
-        <div>
-            Email: courage@profile-puppy.com<br />
-            Tel. (555) 123-4567
-        </div>
+        <nav>
+            <a href="#">News</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="dogs.html">Our Dogs</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </footer>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
