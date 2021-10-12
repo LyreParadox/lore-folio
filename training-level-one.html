@@ -5,10 +5,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- making sure to place this AFTER the bootstrap css file for correct override. Starting with font-awesome-->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <!-- bootstrap-social-icons-->
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Level One</title>
 </head>
 
 <body>
+    <header>
+
+    </header>
+
+    <!-- accordion -->
+    <div class="container">
+        <div class="row row-content">
+            <div class="col">
+                <h3>Training Level One</h3>
+                <p>These training levels are designed to produce a dog that is three weeks short of a title in any
+                    dogsport, or three weeks from learning the basics of any job. A dog that thinks, that eagerly goes
+                    into new situations, that performs reliably, that is comfortable in public, a good traveler, capable
+                    of giving full attention to the handler and working at any reasonable distance.
+
+                    Please read the INTRODUCTION before you start working. Work these behaviors in any order, but do
+                    them all before going on to Level Two.</p>
+                <div id="accordion">
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4><a class="collapsed" data-toggle="collapse" data-target="#come1">COME</a></h4>
+                            <div class="collapse" data-parent="accordion" id="come1">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">The dog must play the Come Game between the handler and
+                                        a friend or stranger standing 20’ apart. An actual cue to come is desirable but
+                                        not necessary.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4><a class="collapsed" data-toggle="collapse" data-target="#">HEADING GOES HERE</a></h4>
+                            <h4><small>SHORT DESCRIPTION GOES HERE</small></h4>
+                            <div class="collapse" data-parent="#accordion" id="">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">FULL DESCRIPTION GOES HERE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <nav>
+            <a href="index.html">News</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="dogs.html">Our Dogs</a>
+            <a href="training-levels.html">Training Levels</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 

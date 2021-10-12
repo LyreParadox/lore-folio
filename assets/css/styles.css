@@ -1,3 +1,12 @@
 body {
     font-family: 'Saira', sans-serif;
 }
+
+.navbar {
+    background-color: black;
+}
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
