@@ -10,3 +10,9 @@ body {
     border-top: none;
     padding: 10px;
 }
+.foodless {
+    color: firebrick;
+}
+.optional {
+    color: green;
+}
