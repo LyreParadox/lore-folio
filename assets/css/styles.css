@@ -16,3 +16,5 @@ body {
 .optional {
     color: green;
 }
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); }
