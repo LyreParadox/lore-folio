@@ -24,11 +24,11 @@ body {
     background-image: linear-gradient(to left,black, green, lime);
     color: white;
 }
-.carousel {
+.carousel, .hero-dog {
     border: solid black;
     border-top: none;
 }
 
-.card-deck {
+.card-deck, .card-columns {
     padding-top: 30px;
 }

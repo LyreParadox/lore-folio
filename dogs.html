@@ -76,7 +76,9 @@
         <!-- card 1 -->
         <div class="card-deck">
             <div class="card border-success" style="width: 18rem;">
-                <div class="card-header bg-success">Available!</div>
+                <div class="card-header bg-success">
+                    <h5>Available!</h5>
+                </div>
                 <img class="card-img-bottom" src="assets/img/heroes/jrt-duncan-kidd-unsplash.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Dunk</h5>
@@ -92,7 +94,9 @@
             </div>
             <!-- card 2 -->
             <div class="card border-success" style="width: 18rem;">
-                <div class="card-header bg-success">Available!</div>
+                <div class="card-header bg-success">
+                    <h5>Available!</h5>
+                </div>
                 <img class="card-img-bottom" src="assets/img/heroes/doodle-brooke-cagle-unsplash.jpg"
                     alt="Card image cap">
                 <div class="card-body">
@@ -108,7 +112,9 @@
             </div>
             <!-- card 3 -->
             <div class="card border-success" style="width: 18rem;">
-                <div class="card-header bg-success">Available!</div>
+                <div class="card-header bg-success">
+                    <h5>Available!</h5>
+                </div>
                 <img class="card-img-bottom" src="assets/img/heroes/collie-baptist-standaert-unsplash.jpg"
                     alt="Card image cap">
                 <div class="card-body">
@@ -132,12 +138,12 @@
                 <img class="card-img-bottom" src="assets/img/dog-on-agility-tunnel.jpg"
                     alt="Young dog jumping on top of an agility tunnel">
                 <div class="card-body">
-                    <h5 class="card-title">Jonah</h5>
+                    <h5 class="card-title"><span class="badge badge-success">New!</span> Jonah</h5>
                     <p class="card-text">Ur givin me a spook noodle horse most angery pupper I have ever seen tungg,
                         puggo. Waggy wags maximum borkdrive long doggo I am bekom fat, stop it fren fluffer.</p>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Started: 11/5</small>
+                    <small class="text-muted">Started: 10/5</small>
                 </div>
             </div>
             <!-- card 5 -->
@@ -173,29 +179,45 @@
         </div>
     </div>
 
-    <footer>
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li><a href="index.html">Home</li></a>
-                <li><a href="aboutus.html">About</li></a>
-                <li><a href="#">Dogs</li></a>
-                <li><a href="training.html">Training</li></a>
-                <li><a href="contact.html">Contact</li></a>
-            </ul>
-        </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
-        </div>
-        <div>
-            Email: courage@profile-puppy.com<br />
-            Tel. (555) 123-4567
+    <!-- footer -->
+    <footer class="site-footer pt-4">
+        <hr />
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5>Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</li></a>
+                        <li><a href="aboutus.html">About</li></a>
+                        <li><a href="dogs.html">Dogs</li></a>
+                        <li><a href="training.html">Training</li></a>
+                        <li><a href="#">Contact</li></a>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a href="http://instagram.com/">Instagram</a>
+                    <a href="http://facebook.com/">Facebook</a>
+                    <a href="http://twitter.com/">Twitter</a>
+                    <a href="http://youtube.com/">YouTube</a>
+                </div>
+                <div class="col">
+                    Email: courage@profile-puppy.com<br />
+                    Tel. (555) 123-4567
+                </div>
+            </div>
         </div>
     </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/scripts.js"></script>
+    <!-- endbuild -->
 
 </body>
 

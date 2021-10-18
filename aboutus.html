@@ -71,14 +71,16 @@
         </div>
     </nav>
 
+    <!-- content -->
     <div class="container">
         <div class="row">
             <div class="col">
-                <img src="./assets/img/bulldog-jumping.jpg"
-                    alt="Intense Border Collie leaping over a jump towards the camera" class="d-block w-100">
+                <img src="./assets/img/bulldog-jumping.jpg" alt="Two bulldogs playing with a disc in a grassy field"
+                    class="d-block w-100 hero-dog">
+                <!-- section 1 -->
                 <div>
-                    <!-- section 1 -->
-                    <h1>About Us</h1>
+                    <h1 class="pt-4">About Us</h1>
+                    <hr />
                     <br>
                     <p>
                         Doggo ipsum shoober very hand that feed shibe long water shoob. very good spot long woofer.
@@ -93,16 +95,10 @@
                         treat stop it fren.
                     </p>
                 </div>
+                <!-- section 2 -->
                 <div>
-                    <!-- section 2 -->
-                    <!-- SUPPORT FORM GOES HERE -->
-                    <form action="">
-
-                    </form>
-                </div>
-                <!-- section 3 -->
-                <div>
-                    <h1>Why Profiles in Puppies?</h1>
+                    <h1 class="pt-4">Why Profiles in Puppies?</h1>
+                    <hr />
                     <br>
                     <p>Long doggo stop it fren wrinkler I am bekom fat boof borkf floofs, pupper doing me a frighten
                         blep puggorino. Clouds borkf long bois many pats fat boi tungg, long woofer pupperino such
@@ -112,29 +108,176 @@
                         good boys and girls boofers what a nice floof the neighborhood pupper puggorino snoot,
                         noodle horse floofs doge smol. Pats extremely cuuuuuute sub woofer many pats, shibe. You are
                         doing me the shock smol borking doggo with a long snoot for pats pupper pats, lotsa pats
-                        blop.</p>
+                        blop.
+                    </p>
                 </div>
-                <!-- section 3 -->
-                <div>
-                    <h1>Stats</h1>
-                    <h2>Dogs Rescued</h2>
-                    <h2>Placements</h2>
-                    <h2>Hours Trained</h2>
+                <!-- table -->
+                <div class="row row-content">
+                    <div class="col-sm-9">
+                        <h2>Stats</h2>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr class="bg-success text-light">
+                                        <th></th>
+                                        <th>2016</th>
+                                        <th>2017</th>
+                                        <th>2018</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-success">
+                                    <tr>
+                                        <th>Dogs Rescued</th>
+                                        <td>10</td>
+                                        <td>20</td>
+                                        <td>40</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Placements</th>
+                                        <td>256</td>
+                                        <td>1,280</td>
+                                        <td>5,360</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Hours Trained</th>
+                                        <td>101,325</td>
+                                        <td>423,000</td>
+                                        <td>~3,000,000,000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <video src=""></video>
+                <!-- support form -->
+                <div class="row row-content">
+                    <div class="col-12 pt-4">
+                        <h1 class="text-success">Pledge Your Support</h1>
+                        <hr />
+                    </div>
+                    <div class="col-md-10">
+                        <!-- contact form -->
+                        <form>
+                            <!-- names -->
+                            <div class="form-group row">
+                                <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                                <div class="col-md-10"><input type="text" class="form-control" id="firstName"
+                                        name="firstName" placeholder="First Name" />
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                                <div class="col-md-10"><input type="text" class="form-control" id="lastName"
+                                        name="lastName" placeholder="Last Name" /></div>
+                            </div>
+                            <!-- email -->
+                            <div class="form-group row">
+                                <label for="email" class="col-md-2 col-form-label">Email</label>
+                                <div class="col-md-10">
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Email" />
+                                </div>
+                            </div>
+                            <!-- contact radio -->
+                            <div class="form-group row">
+                                <div class="col offset-md-2">
+                                    May we contact you?
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="contactYes"
+                                            name="contactRadios" value="yes" />
+                                        <label for="contactYes" class="form-check-label">Yes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="contactNo" name="contactRadios"
+                                            value="no" />
+                                        <label for="contactNo" class="form-check-label">No</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- donation radio -->
+                            <div class="form-group row">
+                                <div class="col offset-md-2">
+                                    Donation Amount
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="donation5"
+                                            name="donationRadios" value="5" />
+                                        <label for="donation5" class="form-check-label">$5</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="donation10"
+                                            name="donationRadios" value="10" />
+                                        <label for="donation10" class="form-check-label">$10</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="donation25"
+                                            name="donationRadios" value="25" />
+                                        <label for="donation25" class="form-check-label">$25</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="donation100"
+                                            name="donationRadios" value="100" />
+                                        <label for="donation100" class="form-check-label">$100</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- feedback -->
+                            <div class="form-group row">
+                                <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                                <div class="col-md-10">
+                                    <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-md-2 col-md-10">
+                                    <button type="submit" class="btn btn-success">Send Help</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- footer -->
-    <footer>
+    <footer class="site-footer pt-4">
+        <hr />
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5>Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</li></a>
+                        <li><a href="aboutus.html">About</li></a>
+                        <li><a href="dogs.html">Dogs</li></a>
+                        <li><a href="training.html">Training</li></a>
+                        <li><a href="#">Contact</li></a>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a href="http://instagram.com/">Instagram</a>
+                    <a href="http://facebook.com/">Facebook</a>
+                    <a href="http://twitter.com/">Twitter</a>
+                    <a href="http://youtube.com/">YouTube</a>
+                </div>
+                <div class="col">
+                    Email: courage@profile-puppy.com<br />
+                    Tel. (555) 123-4567
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/scripts.js"></script>
+    <!-- endbuild -->
 
 </body>
 
