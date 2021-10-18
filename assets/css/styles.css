@@ -32,3 +32,7 @@ body {
 .card-deck, .card-columns {
     padding-top: 30px;
 }
+
+ol li {
+    font-style: italic;
+}
