@@ -40,11 +40,101 @@
                 </div>
                 <!-- donation button -->
                 <div class="col col-md-4 col-xl-2 mt-4">
-                    <a role="button" id="donateButton" class="btn btn-info btn-lg">Donate</a>
+                    <a role="button" data-toggle="modal" data-target="#donateModal" id="donateButton"
+                        class="btn btn-primary text-white btn-lg">Support the Doggos</a>
                 </div>
             </div>
         </div>
     </header>
+
+    <!-- donation modal -->
+    <div id="donateModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-success">Pledge Your Support</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <!-- donation form -->
+                        <form>
+                            <!-- names -->
+                            <div class="form-group row">
+                                <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                                <div class="col-md-10"><input type="text" class="form-control" id="firstName"
+                                        name="firstName" placeholder="First Name" />
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                                <div class="col-md-10"><input type="text" class="form-control" id="lastName"
+                                        name="lastName" placeholder="Last Name" /></div>
+                            </div>
+                            <!-- email -->
+                            <div class="form-group row">
+                                <label for="email" class="col-md-2 col-form-label">Email</label>
+                                <div class="col-md-10">
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Email" />
+                                </div>
+                            </div>
+                            <!-- contact radio -->
+                            <div class="form-group row">
+                                <div class="col offset-md-2">
+                                    May we contact you?
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="contactYes"
+                                            name="contactRadios" value="yes" />
+                                        <label for="contactYes" class="form-check-label">Yes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="contactNo" name="contactRadios"
+                                            value="no" />
+                                        <label for="contactNo" class="form-check-label">No</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- donation radio -->
+                            <div class="form-group row">
+                                <div class="col offset-md-2">
+                                    Donation Amount
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="donation10"
+                                            name="donationRadios" value="10" />
+                                        <label for="donation10" class="form-check-label">$10</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="donation25"
+                                            name="donationRadios" value="25" />
+                                        <label for="donation25" class="form-check-label">$25</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="donation100"
+                                            name="donationRadios" value="100" />
+                                        <label for="donation100" class="form-check-label">$100</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- feedback -->
+                            <div class="form-group row">
+                                <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                                <div class="col-md-10">
+                                    <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-md-2 col-md-10">
+                                    <button type="submit" class="btn btn-success">Send Help</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--navigation bar-->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
@@ -88,7 +178,7 @@
                         <div class="carousel-item active">
                             <a href="post1.html">
                                 <img class="d-block w-100" src="assets/img/borzoi-running-001.jpg"
-                                    alt="Intensly running borzoi dog">
+                                    alt="Intensely running borzoi dog">
                             </a>
                             <div class="carousel-caption">
                                 <h3>Ten Characteristics of Good Clicker Trainers</h3>
