@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LyreParadox/lore-folio.git"
+    "url": "git+https://github.com/LyreParadox/portfolio-puppy.git"
   },
   "author": "Lore",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LyreParadox/lore-folio/issues"
+    "url": "https://github.com/LyreParadox/portfolio-puppy/issues"
   },
-  "homepage": "https://github.com/LyreParadox/lore-folio#readme",
+  "homepage": "https://github.com/LyreParadox/portfolio-puppy#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
