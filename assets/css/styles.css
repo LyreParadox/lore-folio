@@ -37,3 +37,18 @@ ol li {
     background-color: #3A006B;
     color: white;
 }
+
+/* unvisited link */
+a:link {
+    color: #3A006B;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00470E;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #2DB300;
+  }
