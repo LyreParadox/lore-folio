@@ -21,7 +21,7 @@ body {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to left,black, green, lime);
+    background-image: linear-gradient(to left, black, green, lime);
     color: white;
 }
 .carousel, .hero-dog {
@@ -35,4 +35,9 @@ body {
 
 ol li {
     font-style: italic;
+}
+
+.contrast {
+    background-color: #3A006B;
+    color: white;
 }
