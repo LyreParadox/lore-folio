@@ -40,15 +40,21 @@ ol li {
 
 /* unvisited link */
 a:link {
-    color: #3A006B;
-  }
-  
-  /* visited link */
-  a:visited {
     color: #00470E;
   }
   
-  /* mouse over link */
-  a:hover {
-    color: #2DB300;
+/* visited link */
+a:visited {
+color: #3A006B;
+}
+  
+/* mouse over link */
+a:hover {
+color: #2DB300;
+}
+
+@media (max-width: 320px) {
+    h3 {
+      font-size: 1.25rem;
+    }
   }
