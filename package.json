@@ -7,7 +7,7 @@
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
-    "imagemin": "imagemin assets/img/* -o dist/img && imagemin assets/img/heroes/* -o dist/heroes/img",
+    "imagemin": "imagemin assets/img/* -o assets/dist/img && imagemin assets/img/heroes/* -o dist/assets/heroes/img",
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
